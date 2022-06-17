@@ -1,0 +1,97 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+body {
+    min-height: 100vh;
+    background: url(../img/CityLima2.jpg);
+    background-size: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+h2{
+    color: white;
+}
+
+.Contenedor{
+    height: calc(90vh - 150px);
+
+}
+
+.Titulo{
+    margin: 6% 0%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Titulo h1{
+    background-color: rgba(167, 165, 165, 0.562);
+    width: 550px;
+    border-radius: 40px;
+}
+
+.Selection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn1{
+    margin: 0% 10%;
+}
+.btn2{
+    margin: 0% 10%;
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0.61);
+    width: 300px;
+    height: 250px;
+    border-radius: 40px;
+}
+
+.imgs{
+    width: 150px;
+    height: 150px;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+}
+.Selection :hover{
+    background: rgb(0, 0, 0);
+    color: #fff;
+    outline: 0;
+    transition: background-color 1s ease-out;
+}
+
+.Contenedor-principal-piedepagina{
+    z-index: 3;
+    bottom: 0;
+    color: white;
+    position: relative;/*absolute - relative */
+    width: 100%;
+    padding: 1em 0;
+    height: 100px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nombre-servidor-web-piedepagina{
+    padding: 0 20px;
+    border-right: 5px white solid;
+}
+.datos-servicio-piedepagina{
+    padding: 0 0 0 20px;
+}
+.datos-relevantes{
+    margin: 0;
+}
