@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    background: url(../img/CityLima1.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100px;
+}
+header {
+    height: 100px;
+    background-color: rgb(0, 100, 164);
+    top: 0;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+* {
+
+    box-sizing: border-box;
+}
+.Perfil {
+    height: 13vh;
+
+}
+.ProductLogo{
+    width: 110px;
+    height: 94px;
+    padding: 30px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.buscar {
+    flex: 1;
+    flex-basis: 0.000000001px;
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+
+}
+.buscar input {
+    width: 75%;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #222;
+
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+}
+.Elementos{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 30px;
+}
+button{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10rem;
+}
+button:hover{
+    background-color: cadetblue;
+}
+button.BNoticia{
+    background-color: cadetblue;
+}
+.CuadroNoticias{
+    background-color: rgb(24,157,177);
+    opacity: 0.9;
+    padding: 2rem;
+    min-width: 5%;
+    max-width: 100%;
+
+}
+.TextNoticias{
+    position:relative;
+
+}
+article{
+    width: 80%;
+    margin: 20px auto;
+    border-color:rgb(57,57,57);
+    background-color:rgb(57,57,57);
+    padding: 15px;
+    color:white;
+
+}
+article .izquierda{
+    width: 150px;
+    float: left;
+    margin-right: 15px;
+}
+
+article .reset {
+    clear: both;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand&display=swap');
+/* Section Common Styles */
+
+section nurse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 125px 100px;
+}
+section h3.title {
+    color: #414a4f;
+    text-transform: capitalize;
+    font: bold 32px 'Open Sans', "Bradley Hand ITC";
+    margin-bottom: 35px;
+    text-align: center;
+}
+.nurse p {
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 35px;
+    padding: 0 20px;
+    line-height: 2;
+}
+
+ul.grid {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* Enfermeros Section */
+
+.nurse {
+    background-color: #F7F7F7;
+    opacity: 0.9;
+}
+
+.nurse .grid li {
+    padding: 0 30px;
+    flex-basis: 33%;
+    text-align: center;
+
+}
+
+.nurse .grid li i {
+    font-size: 50px;
+    color: #2196F3;
+    margin-bottom: 25px;
+}
+
+.nurse .grid li h4 {
+    color: #555;
+    font-size: 20px;
+    font: bold 30px 'Open Sans', "Bradley Hand ITC";
+    margin-bottom: 25px;
+}
+
+.nurse .grid li p {
+    margin: 0;
+}
+
+@media (max-width: 1000px) {
+    .nurse .grid li {
+        flex-basis: 70%;
+        margin-bottom: 65px;
+    }
+    .nurse .grid li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .nurse .grid li {
+        flex-basis: 100%;
+    }
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    padding: 20px;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.fa-facebook{
+    background-image: url("../img/facebook.png");
+    background-size: cover;
+    min-height: 10px;
+}
+.fa-instagram{
+    background-image: url("../img/instagram.png");
+    background-size: cover;
+    min-height: 10px;
+}
+.fa-twitter{
+    background-image: url("../img/twiter.png");
+    background-size: cover;
+    min-height: 10px;
+}
+.fa-youtube{
+    background-image: url("../img/youtube.png");
+    background-size: cover;
+    min-height: 50px;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+

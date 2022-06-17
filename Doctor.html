@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/StyleDoctor.css" rel="stylesheet"/>
+    <title>Document</title>
+</head>
+<body>
+    <header class="Contenedor-encabezado-general">
+        <div class="Subcontenedor-encabezado-superiro">
+            <div class="subcontenedor-contenido-newtec">
+                <img src="img/Logo.png"/>
+                <h1>NewTec</h1>
+            </div>
+            <div class="subcontenedor-contenido-perfil">
+                <h3>owo</h3>
+                <img class="subcontenido-perfin" src="img/fujiwara.gif"/>
+            </div>
+        </div>
+        <div class="Subcontenedor-encabezado-inferior">
+            <div>
+                <button id="boton-encabezado-inicio" class="encabezado-boton-inicio" onclick="inicio_html()">INICIO</button>
+                <button id="boton-encabezado-estado" class="encabezado-boton-estado" onclick="estado_html()">ESTADO</button>
+                <button id="boton-encabezado-configuracion" class="encabezado-boton-configuracion" onclick="configuracion_html()">CONFIGURACION</button>
+            </div>
+        </div>        
+    </header>
+    <section class="Contendor-cuerpo-general">
+        <div class="Subcontenedor-cuerpo-general">
+            <div id="cuadricula1_html_inicio1" class="subcontenido-contenedor-cuadricula1">
+                <div class="subcontenido-cuadricula1-cuadro">
+                    <button class="boton-citas-medicas">
+                        <span>
+                            <img class="imagen-izquierda-icon" src="img/icon_reservar.png"/>
+                            <p>CITAS MEDICAS</p>
+                            <div class="imagen-derecha-adelantar">
+                                <img src="img/boton_adelantar.png">
+                            </div>
+                        </span>
+                    </button>
+                    <div class="Cuadricual1-cuadro-contenido">
+                        <div>
+                            <img src="img/citas_medicas.jpg"/>
+                        </div>
+                        <p>Puedes visualizar todas las citas medicas que fueron reservadas por tus clientes.</p>
+                    </div>
+                </div>
+                <div class="subcontenido-cuadricula1-cuadro">
+                    <button class="boton-Comunicaciones">
+                        <span>
+                            <img class="imagen-izquierda-icon" src="img/icon_comunicaicon.png"/>
+                            <p>COMUNICACIONES</p>
+                            <div class="imagen-derecha-adelantar">
+                                <img src="img/boton_adelantar.png"/>
+                            </div>
+                        </span>
+                    </button>
+                    <div class="Cuadricual1-cuadro-contenido">
+                        <div>
+                            <img src="img/comunicaciones.jpg"/>
+                        </div>
+                        <p>Puedes contactar con los clientes que reservaron sus citas medicas.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="cuadricula1_html_inicio2" class="subcontenido-contenedor-cuadricula1">
+                <div class="subcontenido-cuadricula1-cuadro">
+                    <button class="boton-Consultas">
+                        <span>
+                            <img class="imagen-izquierda-icon" src="img/icon_consulta.png"/>
+                            <p>CONSULTAS</p>
+                            <div class="imagen-derecha-adelantar">
+                                <img src="img/boton_adelantar.png"/>
+                            </div>
+                        </span>
+                    </button>
+                    <div class="Cuadricual1-cuadro-contenido">
+                        <div>
+                            <img src="img/consultas.jpg"/>
+                        </div>
+                        <p>Se puede visualizar las consultas realizadas por los diferentes pacientes que se encuentran registrados con su servicio.</p>
+                    </div>
+                </div>
+                <div class="subcontenido-cuadricula1-cuadro">
+                    <button class="boton-Horario-citas">
+                        <span>
+                            <p>HORARIO DE CITAS</p>
+                            <img class="imagen-izquierda-icon" src="img/icon_horario.png"/>
+                            <div class="imagen-derecha-adelantar">
+                                <img src="img/boton_adelantar.png"/>
+                            </div>
+                        </span>
+                    </button>
+                    <div class="Cuadricual1-cuadro-contenido">
+                        <div>
+                            <img src="img/horario.jpg"/>
+                        </div>
+                        <p>Para configurar su horario de atencion durante sus servicios dentro de la app</p>
+                    </div>
+                </div>
+            </div>
+            <div id="cuadricula1_html_inicio3" class="subcontenido-contenedor-cuadricula1">
+                <div class="subcontenido-cuadricula1-cuadro">
+                    <button class="boton-Agenda">
+                        <span>
+                            <img class="imagen-izquierda-icon" src="img/icon_agenda.png"/>
+                            <p>AGENDA</p>
+                            <div class="imagen-derecha-adelantar">
+                                <img src="img/boton_adelantar.png"/>
+                            </div>
+                        </span>
+                    </button>
+                    <div class="Cuadricual1-cuadro-contenido">
+                        <div>
+                            <img src="img/agenda.jpg"/>
+                        </div>
+                        <p>Si deseas realizar notas personales, puedes escribirlas en la agenda.</p>
+                    </div>
+                </div>
+                <div class="subcontenido-cuadricula1-cuadro">
+                    <button class="boton-Foro">
+                        <span>
+                            <img class="imagen-izquierda-icon" src="img/icon_foro.png"/>
+                            <p>FORO</p>
+                            <div class="imagen-derecha-adelantar">
+                                <img src="img/boton_adelantar.png"/>
+                            </div>
+                        </span>
+                    </button>
+                    <div class="Cuadricual1-cuadro-contenido">
+                        <div>
+                            <img src="img/foro.jpg"/>
+                        </div>
+                        <p>Pueden compartir todos los materiales medicos mediante la opcion del foro.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="Contenedor-principal-piedepagina">
+        <div class="nombre-servidor-web-piedepagina">
+            <h1>NewTec</h1>
+        </div>
+        <div class="datos-servicio-piedepagina">
+            <h4 class="datos-relevantes">Telefono: (+51) 999 616 162</h4>
+            <h4 class="datos-relevantes">Dirección: Prolongación Primavera 2390, Monterrico</h4>
+            <h4 class="datos-relevantes">Correo: u2018asd@upc.edu.pe</h4>
+        </div>
+        <div class="sitios-web-piedepagina">
+            <img src="img/facebook.png"/>
+            <img src="img/Whapp.png"/>
+            <img src="img/twiter.png"/>
+        </div>
+    </footer>
+    <script src="JS/JSDoctor.js"></script>
+</body>
+</html>

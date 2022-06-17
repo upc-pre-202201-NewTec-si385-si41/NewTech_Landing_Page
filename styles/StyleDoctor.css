@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+}
+/*body*/
+body{
+    min-height: 100vh;
+}
+/*--------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------ENCABEZADO GENERAL*/
+.Contenedor-encabezado-general{
+    background-color: black;
+    min-height: 150px;
+}
+/*subcontenedor encabezado*/
+.Subcontenedor-encabezado-superiro{
+    display: flex;
+    height: 100px;
+}
+.Subcontenedor-encabezado-superiro .subcontenedor-contenido-newtec img{
+    width: 100px;
+}
+.Subcontenedor-encabezado-superiro .subcontenedor-contenido-newtec h1{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32xp;
+    font-weight: bold;
+    border-left: 5px solid white;
+    color: white;
+}
+.subcontenedor-contenido-newtec{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.subcontenedor-contenido-perfil{
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    right: 0;
+}
+.subcontenedor-contenido-perfil h3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.subcontenido-perfin{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.Subcontenedor-encabezado-inferior{
+    position: relative;
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Subcontenedor-encabezado-inferior .encabezado-boton-estado, 
+    .Subcontenedor-encabezado-inferior .encabezado-boton-configuracion{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    /*border: none;EL BOTTON ESTA SOLO QUE QUITE LOS BORDES*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20PX;
+    border-top-left-radius:15px ;
+    border-top-right-radius:15px ;
+}
+.encabezado-boton-inicio{
+    height: 50px;
+    width: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20PX;
+    background-color: white;
+    color: black;
+    border: none;
+    border-top-left-radius:15px ;
+    border-top-right-radius:15px ;
+}
+
+/*--------------------------------------------------------------------------------CUERPO GENERAL*/
+.Contendor-cuerpo-general{
+    background-color: blue;
+    min-height: calc(100vh - 250px);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+/*subcontendor cuerpo*/
+.Subcontenedor-cuerpo-general{
+    width:1366px; /*1366px; */
+    min-height: calc(100vh - 250px);
+    background-color: white;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    /* display: grid; */
+    justify-content: center;
+    padding-top: 10px;
+}
+.subcontenido-contenedor-cuadricula1{
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+}
+/* .Cuadricual1-cuadro-contenido{
+    border-left: 5px solid red;
+} */
+.subcontenido-cuadricula1-cuadro div div {
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+.subcontenido-cuadricula1-cuadro div div img{
+    width: 100%;
+}
+.subcontenido-cuadricula1-cuadro{
+    position: relative;
+    padding: 0 10px;
+    width: 50%;
+}
+.Subcontenedor-cuerpo-general button{
+    width: 100%;
+    height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+.boton-citas-medicas{
+    background-color: rgb(123, 123, 255, 0.7);
+}
+.boton-citas-medicas div{
+    content: "";
+    right: 0;
+    top: 0;
+    position: absolute;
+    background-color: blue;
+    height: 100%;
+    width: 60px;
+}
+.imagen-izquierda-icon{
+    position: absolute;
+    width: 80px;
+    left: 10px;
+}
+.boton-citas-medicas div img{
+    height: 100%;
+    width: 100%;
+}
+.boton-Comunicaciones{
+    background-color: rgb(123, 123, 255, 0.7);
+}
+.boton-Comunicaciones div{
+    content: "";
+    right: 0;
+    top: 0;
+    position: absolute;
+    background-color: blue;
+    height: 100%;
+    width: 60px;
+}
+.boton-Comunicaciones div img{
+    height: 100%;
+    width: 100%;
+}
+.boton-Consultas{
+    background-color: rgb(123, 123, 255, 0.7);
+}
+.boton-Consultas div{
+    content: "";
+    right: 0;
+    top: 0;
+    position: absolute;
+    background-color: blue;
+    height: 100%;
+    width: 60px;
+}
+.boton-Consultas div img{
+    height: 100%;
+    width: 100%;
+}
+.boton-Horario-citas{
+    background-color: rgb(123, 123, 255, 0.7);
+}
+.boton-Horario-citas div{
+    content: "";
+    right: 0;
+    top: 0;
+    position: absolute;
+    background-color: blue;
+    height: 100%;
+    width: 60px;
+}
+.boton-Horario-citas div img{
+    height: 100%;
+    width: 100%;
+}
+.boton-Agenda{
+    background-color: rgb(123, 123, 255,0.7);
+}
+.boton-Agenda div{
+    content: "";
+    right: 0;
+    top: 0;
+    position: absolute;
+    background-color: blue;
+    height: 100%;
+    width: 60px;
+}
+.boton-Agenda div img{
+    height: 100%;
+    width: 100%;
+}
+.boton-Foro{
+    background-color: rgb(123, 123, 255, 0.7);
+}
+.boton-Foro div{
+    content: "";
+    right: 0;
+    top: 0;
+    position: absolute;
+    background-color: blue;
+    height: 100%;
+    width: 60px;
+}
+.boton-Foro div img{
+    height: 100%;
+    width: 100%;
+}
+.subcontenido-contenedor-cuadricula1 p{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.Cuadricual1-cuadro-contenido div{
+    width: 100%;
+}
+.boton-citas-medicas{
+    overflow: hidden;
+}
+.boton-citas-medicas span{
+    z-index: 2;
+}
+.boton-citas-medicas::after{
+    z-index: 1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: -120%;
+    border-bottom: rgb(91, 91, 248) 100px solid;
+    border-right: solid transparent 100px;
+    transition: .7s ease-in-out all;
+}
+.boton-citas-medicas p:hover::after{
+    color: white ;
+}
+.boton-citas-medicas:hover::after {
+    left: 0;
+    color: white;
+}
+.boton-Agenda{
+    overflow: hidden;
+}
+.boton-Agenda span{
+    z-index: 2;
+}
+.boton-Agenda::after{
+    z-index: 1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: -120%;
+    border-bottom: rgb(91, 91, 248) 100px solid;
+    border-right: solid transparent 100px;
+    transition: .7s ease-in-out all;
+}
+.boton-Agenda p:hover::after{
+    color: white ;
+}
+.boton-Agenda:hover::after {
+    left: 0;
+    color: white;
+}
+.boton-Comunicaciones{
+    overflow: hidden;
+}
+.boton-Comunicaciones span{
+    z-index: 2;
+}
+.boton-Comunicaciones::after{
+    z-index: 1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: -120%;
+    border-bottom: rgb(91, 91, 248) 100px solid;
+    border-right: solid transparent 100px;
+    transition: .7s ease-in-out all;
+}
+.boton-Comunicaciones:hover::after {
+    left: 0;
+    color: white;
+}
+.boton-Consultas{
+    overflow: hidden;
+}
+.boton-Consultas span{
+    z-index: 2;
+}
+.boton-Consultas::after{
+    z-index: 1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: -120%;
+    border-bottom: rgb(91, 91, 248) 100px solid;
+    border-right: solid transparent 100px;
+    transition: .7s ease-in-out all;
+}
+.boton-Consultas:hover::after {
+    left: 0;
+    color: white;
+}
+.boton-Foro{
+    overflow: hidden;
+}
+.boton-Foro span{
+    z-index: 2;
+}
+.boton-Foro::after{
+    z-index: 1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: -120%;
+    border-bottom: rgb(91, 91, 248) 100px solid;
+    border-right: solid transparent 100px;
+    transition: .7s ease-in-out all;
+}
+.boton-Foro:hover::after {
+    left: 0;
+    color: white;
+}
+.boton-Horario-citas{
+    overflow: hidden;
+}
+.boton-Horario-citas span{
+    z-index: 2;
+}
+.boton-Horario-citas::after{
+    z-index: 1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: -120%;
+    border-bottom: rgb(91, 91, 248) 100px solid;
+    border-right: solid transparent 100px;
+    transition: .7s ease-in-out all;
+}
+.boton-Horario-citas:hover::after {
+    left: 0;
+    color: white;
+}
+/*---------------------------------------------------------------------------------PIE DE PAGINA*/
+.Contenedor-principal-piedepagina{
+    z-index: 3;
+    bottom: 0;
+    height: 100px;
+    color: white;
+    position: relative; /*relative*/
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nombre-servidor-web-piedepagina{
+    padding: 0 20px;
+    border-right: 5px white solid;
+}
+.datos-servicio-piedepagina{
+    padding: 0 0 0 20px;
+}
+.datos-relevantes{
+    margin: 0;
+}
+.sitios-web-piedepagina{
+    padding: 20px;
+}
+.sitios-web-piedepagina img {
+    width: 20px;
+}
+/*arreglar*/
+@media screen and (max-width: 1300px){
+    .Subcontenedor-encabezado-inferior div {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Subcontenedor-encabezado-inferior button {
+        min-width: 600px;
+    } 
+    .subcontenido-cuadricula1-cuadro .Cuadricual1-cuadro-contenido{
+        display: none;
+    }
+    /* .Subcontenedor-cuerpo-general{
+        min-width: 600px;
+    } */
+    .subcontenido-contenedor-cuadricula1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Subcontenedor-cuerpo-general button{
+        margin-bottom: 10px;
+    }
+    .Subcontenedor-cuerpo-general{
+        min-width: 600px;
+    }
+    
+}
+/*SCROLL*/
+body::-webkit-scrollbar{
+    width: 15px;
+    height: 15px;
+    background: rgb(43, 43, 43);
+}
+body::-webkit-scrollbar-thumb{
+    background: rgb(160, 160, 160);
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb:hover {
+    background: rgb(102, 102, 102);
+    /* box-shadow: 0 0 2px 1px rgba(8, 8, 8, 0.486); */
+}
