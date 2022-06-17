@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+}
+.Fondo-imagen-principal{
+    z-index: 1;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+.Contenedor-principal-contenido{
+    z-index: 2;
+    min-height: calc(100vh - 100px - 4.5rem);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.Contenedor-secundario-contenido{
+    background-color: rgb(35, 174, 196);/*0,120,212  24,157,177*/
+    opacity: 1;
+    border-radius: 2rem;
+    padding: 2rem;
+    min-width: 20rem;
+    max-width: 25rem;
+    position: relative;
+}
+.Subcontenedor-textos{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 4px;
+    border-bottom: 1px white solid;
+}
+.logo-imagen-contenido{
+    width: 8rem;
+}
+.Titulo-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Titulo-imagen h1{
+    font-size: 70px;
+    border-left: 5px white solid;
+    padding: 10px;
+}
+.Titulo-contenido-secundario{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+.Subtitulo-contenido-secundario{
+    margin: 10px 0 0 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: rgb(239, 239, 243);
+}
+p {
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 200;
+}
+.subcontenedor-diferente-acceso{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.subcontenedor-diferente-acceso button{
+    min-width: 15rem;
+    font-size: 20px;
+    height: 35px;
+    margin:0 0 5px 0;
+    color: white;
+    background-color: black;
+    border-radius: 0px;
+}
+.texto-registro-contenido{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Caja-texto-registrarse{
+    display: flex;
+}
+.Caja-texto-registrarse p{
+    margin: 0 5px 10px 0;
+    font-size: 17px;
+    position: relative;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+}
+.Caja-texto-registrarse{
+    margin-bottom: 15px;
+}
+.Caja-texto-registrarse input{
+    margin: 0 0 10px 0;
+    font-size: 17px;
+    border-radius: 7px;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+}
+.Subcontenedro-registro{
+    display: flex;
+    flex-direction: column;
+}
+.Subcontenedro-registro button{
+    border-radius: 30px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(66, 66, 66);
+    margin-bottom: 10px;
+}
+.Subcontenedro-registro a{
+    font-size: 16px;
+}
+.linea-separacion-subcontendor-registro-acceso
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Contenedor-principal-piedepagina{
+    z-index: 3;
+    bottom: 0;
+    color: white;
+    position: relative;/*absolute - relative */
+    width: 100%;
+    padding: 1em 0;
+    height: 100px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nombre-servidor-web-piedepagina{
+    padding: 0 20px;
+    border-right: 5px white solid;
+}
+.datos-servicio-piedepagina{
+    padding: 0 0 0 20px;
+}
+.datos-relevantes{
+    margin: 0;
+}
+.sitios-web-piedepagina{
+    padding: 20px;
+}
+.Contenedor-principal-piedepagina img {
+    width: 20px;
+}
